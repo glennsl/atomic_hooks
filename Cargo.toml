@@ -17,5 +17,5 @@ typemap = "0.3.3"
 # atomic_hooks_macros = "0.1.3"
  atomic_hooks_macros = {path = "./macro"}
 # atomic_hooks_macros = { git = "https://github.com/rebo/atomic_hooks" }
-topo = "^0.13.2"
+topo = { version = "^0.13.2", features = ["wasm-bindgen"] }
 #  seed = { git = "https://github.com/seed-rs/seed", rev = "0a538f0" }
